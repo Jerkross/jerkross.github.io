@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do...</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icon.png">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Lista de tareas</h1>
+        <form id="task-form">
+            <input type="text" id="task-input" placeholder="Nueva tarea...">
+            <button type="submit">Agregar</button>
+        </form>
+        <div class="filters">
+            <button id="filter-all">Todas</button>
+            <button id="filter-active">Pendientes</button>
+            <button id="filter-completed">Completadas</button>
+            <input type="text" id="search-input" placeholder="Buscar tarea...">
+        </div>
+        <ul id="task-list"></ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

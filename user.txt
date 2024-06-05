@@ -1,0 +1,20 @@
+Interfaz Principal: Una vez que cargue el sitio web, verás una interfaz principal que incluye 
+un título "Lista de tareas", un formulario para agregar nuevas tareas, botones de filtro para 
+mostrar todas las tareas, las tareas pendientes o las tareas completadas, y un campo de búsqueda 
+para encontrar tareas específicas.
+Agregar una Nueva Tarea: Para agregar una nueva tarea, simplemente escribe la tarea en el campo 
+de texto debajo del formulario que dice "Nueva tarea...", luego presiona el botón "Agregar". 
+La nueva tarea se agregará a la lista debajo del formulario.
+Editar una Tarea: Si deseas editar una tarea existente, haz clic en el botón "Editar" al lado de 
+la tarea que deseas editar. Se abrirá una ventana emergente que te permitirá modificar el texto de la tarea. 
+Una vez que hayas realizado los cambios, haz clic en "Aceptar" para guardar los cambios.
+Eliminar una Tarea: Si deseas eliminar una tarea, haz clic en el botón "Eliminar" al lado de la tarea 
+que deseas eliminar. La tarea se eliminará de la lista.
+Marcar una Tarea como Completada: Para marcar una tarea como completada, simplemente haz clic en 
+la casilla de verificación junto a la tarea. La tarea se tachará y se moverá a la 
+sección de tareas completadas si estás filtrando por tareas pendientes o completadas.
+Filtrar Tareas: Puedes filtrar las tareas haciendo clic en los botones "Todas", "Pendientes" o "Completadas", 
+según tus necesidades. Esto te permite ver solo las tareas que coinciden con el estado seleccionado.
+Buscar Tareas: Utiliza el campo de búsqueda para buscar tareas específicas ingresando palabras clave. 
+A medida que escribes en el campo de búsqueda, la lista de tareas se filtrará automáticamente 
+para mostrar solo las tareas que coincidan con el texto ingresado.
