@@ -31,6 +31,7 @@ h1 {
 form {
     display: flex;
     justify-content: center;
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -39,6 +40,7 @@ form {
     box-shadow: 0 2px 4px rgba(255, 0, 0, 0.1);
     padding: 10px 20px;
     z-index: 1000;
+    flex-wrap: wrap;
 }
 
 form input {
@@ -47,6 +49,7 @@ form input {
     border: 1px solid #000000;
     border-radius: 5px;
     margin-right: 10px;
+    max-width: 300px;
 }
 
 form button {
@@ -56,6 +59,8 @@ form button {
     color: #000000;
     border-radius: 5px;
     cursor: pointer;
+    flex-shrink: 0;
+    max-width: 150px;
 }
 
 form button:hover {
@@ -64,12 +69,12 @@ form button:hover {
 
 input[type="text"] {
     flex: 1;
-    max-width: 300px;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #000000;
     border-radius: 5px;
     margin-right: 10px;
+    max-width: 300px;
 }
 
 button[type="submit"] {
@@ -178,16 +183,26 @@ ul li .edit-button:hover {
 @media (max-width: 600px) {
     form {
         flex-direction: column;
-        align-items: stretch;
+        align-items: center;
+        padding: 10px;
     }
 
     form input {
         margin-right: 0;
         margin-bottom: 10px;
+        width: 100%;
+        max-width: none;
+    }
+
+    form button {
+        width: auto;
+        align-self: center;
+        max-width: none;
     }
 
     .container {
         padding: 10px;
+        padding-top: 150px;
     }
 
     ul li {
